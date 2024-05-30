@@ -7,11 +7,6 @@ import HomeInfo from '../components/HomeInfo';
 import { Stats, OrbitControls } from '@react-three/drei';
 
 
-/** 
- * * using https://gltf.pmnd.rs/ we can convert GLB and 
- * * blender files into jsx components, its a lifesaver
- */
-
 
 const Contact = () => {
 
@@ -21,7 +16,7 @@ const Contact = () => {
   return (
     <section className='w-full h-screen relative'>
       <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
-        poop
+        iiiiiiiooooooo
       </div>
 
       <Canvas

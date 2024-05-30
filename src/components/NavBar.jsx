@@ -3,12 +3,12 @@ import { NavLink, Route } from 'react-router-dom'
 import { useState } from 'react';
 
 /**
- * TODO: to future Jaffer - please please PLEASE:
+ * TODO: - please please PLEASE:
  * remove navigation for projects about etc 
  * bla bla bla so that it'll just pan around to 
- * different areas of the racetrack when navigating 
- * to different sections of the website but for now 
- * i'll just make it route to diff locations inspo 
+ * different areas of the homepage when navigating 
+ * to different "sections" of the website but for now 
+ * i'll just make it route to diff locations...inspo :
  * ? "Jesses Ramen" --> https://jesse-zhou.com/ */
 
 
