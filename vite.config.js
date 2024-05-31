@@ -4,6 +4,7 @@ import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/portfolio/',
   plugins: [react({
     include: ['**/*.jsx', '**/*.js']
   })],
@@ -15,6 +16,5 @@ export default defineConfig({
       },
     },
   },
-  assetsInclude: ['**/*.glb'],
-  base: '/portfolio/'
+  assetsInclude: ['**/*.glb']
 });
