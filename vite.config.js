@@ -6,6 +6,14 @@ export default defineConfig({
   plugins: [react({
     include: ['**/*.jsx', '**/*.js']
   })],
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, "index.html"),
+        404: resolve(__dirname, "public/404.html"),
+      },
+    },
+  },
   assetsInclude: ['**/*.glb'],
   base: '/portfolio/'
-})
+});
